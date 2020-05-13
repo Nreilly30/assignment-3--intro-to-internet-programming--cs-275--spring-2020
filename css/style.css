@@ -1,0 +1,22 @@
+table {
+  position: absolute;
+  width: 400px;
+  left: calc(50% - 200px);
+  height: 50px;
+  top: calc(50% - 25px);
+  border: darkred solid 5px;
+  border-collapse: collapse;
+}
+
+td {
+  border: darkred solid 5px;
+  transition: transform 500ms;
+}
+
+tbody {
+  text-align: center;
+}
+
+.rotated {
+  transform: rotate(180deg);
+}
